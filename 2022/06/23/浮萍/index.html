@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   
-  <title>NESCRIPT | Nesc的创作集合地</title>
+  <title>浮萍 | NESCRIPT | Nesc的创作集合地</title>
 
   
   <meta name="author" content="Nesc">
@@ -14,12 +14,15 @@
   
 
   
+  
+  <meta name="keywords" content="">
+  
 
   <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
-  
+  <meta property="og:title" content="浮萍"/>
 
   <meta property="og:site_name" content="NESCRIPT"/>
 
@@ -56,12 +59,11 @@
 </header>
 
     <main class="site-main posts-loop">
-    
-  <article>
+    <article>
 
   
     
-    <h3 class="article-title"><a href="/2022/06/23/浮萍/"><span>浮萍</span></a></h3>
+    <h3 class="article-title"><span>浮萍</span></h3>
     
   
 
@@ -133,25 +135,31 @@
     </div>
 
     
-    <div class="article-meta pull-right">
-      <span>
-        <i class="icon-comments"></i>
-        <span>
-          <a href="/2022/06/23/浮萍/#comment">评论</a>
-        </span>
-      </span>
-    </div>
-    
   </div>
 </article>
 
-
-
-
-<nav class="pagination">
   
-  
-</nav>
+
+	<section id="comment" class="comment">
+		<div id="vcomments"></div>
+	</section>
+	<!-- LeanCloud -->
+	<script src="//cdn.jsdelivr.net/npm/leancloud-storage@3.10.0/dist/av-min.js"></script>
+	<!-- Valine -->
+	<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+	<script>
+		new Valine({
+			el: '#vcomments',
+			appId: 'vHTkbvoNjR5TrwR7X5cc0cPa-gzGzoHsz',
+			appKey: 'xBKcUNF99yzTk7bLmkeIEWM7'
+		})
+	</script>
+
+
+
+
+
+
     </main>
 
     <footer class="site-footer">
