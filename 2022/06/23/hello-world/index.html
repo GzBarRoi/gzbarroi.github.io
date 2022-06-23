@@ -50,6 +50,10 @@
   <nav class="site-navigation">
     <ul>
       
+        <li><a href="/">Home</a></li>
+      
+        <li><a href="/archives">Archives</a></li>
+      
     </ul>
   </nav>
 </header>
@@ -112,6 +116,21 @@
 </article>
 
   
+
+	<section id="comment" class="comment">
+		<div id="vcomments"></div>
+	</section>
+	<!-- LeanCloud -->
+	<script src="//cdn.jsdelivr.net/npm/leancloud-storage@3.10.0/dist/av-min.js"></script>
+	<!-- Valine -->
+	<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+	<script>
+		new Valine({
+			el: '#vcomments',
+			appId: 'vHTkbvoNjR5TrwR7X5cc0cPa-gzGzoHsz',
+			appKey: 'xBKcUNF99yzTk7bLmkeIEWM7'
+		})
+	</script>
 
 
 
